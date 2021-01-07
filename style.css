@@ -1,0 +1,144 @@
+
+p{
+ font-family: 'Lato', sans-serif;
+}
+header{
+    width: 100%;
+}
+nav{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+nav:nth-of-type(1){
+    padding-left: 32px;
+}
+nav:nth-of-type(2){
+    justify-content: center;
+}
+nav:nth-of-type(3){
+    justify-content: flex-end;
+   
+}
+nav a{
+    color: black;
+}
+nav a:hover{
+    color: #01793c;
+}
+header img{
+    height: 45px;
+}
+
+section h1{
+    color: white;
+    letter-spacing: 10px;
+    font-size: 4.5em;
+    font-weight: 400;
+}
+section:nth-of-type(1){
+ width: 100%;
+}
+section:nth-of-type(1) p{
+    font-size: 1.5em;
+}
+section:nth-of-type(1) div:nth-of-type(1){
+    background-color: #e3cfb4;
+
+    text-align: center;
+    align-items: center;
+    
+}
+
+section:nth-of-type(1) div:nth-of-type(2){
+    background-image: url(ressources/Capture%20d%C3%94%C3%87%C3%96e%E2%95%A0%C3%BCcran%202021-01-06%20a%E2%95%A0%C3%87%2010.54.40.png);
+    background-size: cover;
+    background-position: bottom right;
+    height: 80vh;
+}
+
+section:nth-of-type(1) h2{
+    color: white;
+    
+}
+.souffle{
+    color: #e3cfb4;
+   text-shadow: white 1px 1px, white -1px 1px, white -1px -1px, white 1px -1px;
+}
+section:nth-of-type(2){
+    padding:80px 0px;
+    text-align: center;
+    font-size: 1.3em;
+    line-height:200%;
+}
+.etape{
+    color: #ceab79;
+    font-size: 1.6em;
+}
+.description{
+    font-size: 1.3em;
+    padding-bottom: 24px;
+}
+section:nth-of-type(3){
+    
+}
+section:nth-of-type(3) div:nth-of-type(1){
+    padding: 0px 80px 0px 80px;
+    
+}
+section:nth-of-type(3) p{
+    max-width: 95%;
+}
+section:nth-of-type(3) h2{
+    padding-bottom: 24px;
+}
+
+.imageDroite{
+    /*background-image: url(ressources/Capture%20d%C3%94%C3%87%C3%96e%E2%95%A0%C3%BCcran%202021-01-06%20a%E2%95%A0%C3%87%2010.54.21.png);*/
+    
+    width: 100%;
+}
+
+section button{
+    color: white;
+    background-color: black;
+    border: none;
+    width: 275px;
+    height: 35px;
+    margin: 80px auto;
+    display: flex;
+    justify-items: center; 
+    justify-content: center;
+}
+.button{
+
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+section:nth-of-type(4){
+   display: flex;
+}
+section:nth-of-type(4) img{
+    width: 95%;
+    margin: 0 auto;
+}
+section:nth-of-type(5){
+    width: 95vw;
+}
+section:nth-of-type(5) .gauche{
+    
+    margin: 0 auto;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+}
+section:nth-of-type(5) .droite{
+    font-size: 1.5em;
+    padding: 48px;
+    line-height: 1.5em;
+}
+section:nth-of-type(5) img{
+    width: 95%;   
+}
+.gauche{
+    padding: px;
+}
